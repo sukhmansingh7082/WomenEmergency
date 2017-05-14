@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:title="@string/about"
+        android:id="@+id/aboutUs"
+         android:alphabeticShortcut="a"
+        android:numericShortcut="1"></item>
+    <item 
+        android:title="@string/upadateinfo"
+        android:id="@+id/updateinfo"></item>
+    <item
+        android:title="@string/mail"
+         android:id="@+id/mail">
+        
+    </item>
+    
+    
+
+</menu>

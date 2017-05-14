@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+         <TextView
+        android:id="@+id/Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/updateit"
+        android:textSize="40sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upadateinfo"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/father1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/father"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/father2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="9898989898">
+
+        <requestFocus />
+    </EditText>
+
+  
+    <TextView
+        android:id="@+id/mother1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mother" 
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/mother2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="9898989898" />
+
+   
+
+    <TextView
+        android:id="@+id/brother1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brother"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/brother2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="9899989898" />
+
+ 
+
+    <TextView
+        android:id="@+id/friend1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friend"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/friend2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="9898989898" />
+
+    <TextView
+        android:id="@+id/friend3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textSize="20sp"
+        android:text="@string/friend1" />
+
+    <EditText
+        android:id="@+id/friend4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="9898989898" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm" />
+
+  
+   
+    </LinearLayout>
+    
+
+</ScrollView>
